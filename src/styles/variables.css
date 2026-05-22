@@ -1,0 +1,19 @@
+:root {
+  --color-bg: #05050a;
+  --color-primary: #6C00FF;
+  --color-secondary: #0047FF;
+  --color-gold: #FFB800;
+  --color-pink: #FF006E;
+  
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A0A0B0;
+  
+  --font-heading: 'Clash Display', 'Syne', sans-serif;
+  --font-body: 'Inter', 'DM Sans', sans-serif;
+  
+  --border-radius-card: 16px;
+  --border-radius-btn: 999px;
+  
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-blur: blur(20px);
+}

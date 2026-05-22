@@ -1,0 +1,14 @@
+/* Noise overlay */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9998; /* Just below cursor */
+  background-image: url('/textures/noise.png');
+  background-repeat: repeat;
+  opacity: 0.05;
+}

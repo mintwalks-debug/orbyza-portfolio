@@ -1,0 +1,40 @@
+/* Custom Cursor styles */
+body {
+  cursor: none;
+}
+
+a, button, [role="button"], input, textarea, select {
+  cursor: none;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: exclusion;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease;
+}
+
+.custom-cursor.hover {
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-primary);
+  mix-blend-mode: screen;
+  box-shadow: 0 0 20px var(--color-primary);
+}
+
+@media (pointer: coarse) {
+  body, a, button, [role="button"], input, textarea, select {
+    cursor: auto !important;
+  }
+  .custom-cursor {
+    display: none !important;
+  }
+}
