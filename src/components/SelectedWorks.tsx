@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion';
+import img1 from '../../website dev/NEOFATBURY.co,in.png';
+import img2 from '../../website dev/enfermeraentucasa.es.png';
+import img3 from '../../website dev/agenziamemorial.png';
+import img4 from '../../website dev/eminpasha.com.png';
 
 const projects = [
-  { title: "Automotive Motion", colSpan: "md:col-span-7", img: "https://images.unsplash.com/photo-1611016186353-9af58c69a533?q=80&w=800&auto=format&fit=crop" },
-  { title: "Urban Architecture", colSpan: "md:col-span-5", img: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop" },
-  { title: "Human Perspective", colSpan: "md:col-span-5", img: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=800&auto=format&fit=crop" },
-  { title: "Brand Identity", colSpan: "md:col-span-7", img: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=800&auto=format&fit=crop" }
+  { title: "Neofatbury", colSpan: "md:col-span-7", img: img1 },
+  { title: "Enfermera en tu casa", colSpan: "md:col-span-5", img: img2 },
+  { title: "Dr. Faus Home Clinic", colSpan: "md:col-span-5", img: img3 },
+  { title: "Partners 2 Health", colSpan: "md:col-span-7", img: img4 }
 ];
 
 export function SelectedWorks() {
