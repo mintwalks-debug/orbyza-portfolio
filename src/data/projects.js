@@ -1,135 +1,95 @@
+import neofatburyImg from '../../website dev/NEOFATBURY.co,in.png';
+import enfermeraImg from '../../website dev/enfermeraentucasa.es.png';
+import agenziaImg from '../../website dev/agenziamemorial.png';
+import askdogImg from '../../website dev/askdogtrainers.png';
+import eminpashaImg from '../../website dev/eminpasha.com.png';
+import ivybridgeImg from '../../website dev/ivybridge.png';
+import roamandroarImg from '../../website dev/Roamandroar.co.in.png';
+
 export const projects = [
   {
     id: 1,
-    name: "Ivy Bridge Study",
-    url: "https://ivybridgestudy.com",
-    description: "A polished academic platform built for students to learn and grow",
-    category: "Education",
-    image: "/screenshots/project1.jpg",
-    color: "#4A90E2",
-    techStack: ["Next.js", "React", "TypeScript", "TailwindCSS"],
+    name: "Neofatbury",
+    url: "https://neofatbury.co.in/",
+    description: "Website development for medical industry",
+    category: "Medical",
+    image: neofatburyImg,
+    color: "#E24A4A",
+    techStack: ["React", "Medical", "Healthcare"],
     speed: "99/100",
-    specification: "A robust educational platform designed with accessibility and performance in mind. Featuring seamless CMS integration, instantaneous page transitions, and an elegant, academic visual hierarchy."
+    specification: "A robust platform for bariatric and metabolic surgery, designed with patient accessibility in mind."
   },
   {
     id: 2,
-    name: "Neofatbury",
-    url: "https://neofatbury.co.in",
-    description: "A bold brand identity website with strong visual storytelling",
-    category: "Branding",
-    image: "/screenshots/project2.jpg",
-    color: "#E24A4A",
-    techStack: ["React", "Three.js", "GSAP", "Styled Components"],
-    speed: "96/100",
-    specification: "An immersive branding experience utilizing WebGL for interactive 3D elements, backed by complex GSAP scroll animations to weave a compelling narrative through visual storytelling."
+    name: "Enfermera en tu casa",
+    url: "https://enfermeraentucasa.es/",
+    description: "Website development for medical industry",
+    category: "Medical",
+    image: enfermeraImg,
+    color: "#4A90E2",
+    techStack: ["React", "Next.js", "Healthcare"],
+    speed: "98/100",
+    specification: "Professional home nursing services platform with easy patient onboarding and clear service discovery."
   },
   {
     id: 3,
-    name: "Chariot Ads",
-    url: "https://chariotads.com",
-    description: "A dynamic advertising agency site built to convert and impress",
-    category: "Marketing",
-    image: "/screenshots/project3.jpg",
+    name: "Dr. Faus Home Clinic",
+    url: "https://drfaushomeclinic.net/",
+    description: "Website development for medical industry",
+    category: "Medical",
+    image: agenziaImg,
     color: "#4AE2A2",
-    techStack: ["Next.js", "Framer Motion", "TailwindCSS", "Node.js"],
-    speed: "98/100",
-    specification: "High-conversion marketing site featuring lightning-fast load times, sophisticated micro-interactions, and a bespoke lead-generation funnel optimized for modern ad campaigns."
+    techStack: ["Vite", "Healthcare", "TailwindCSS"],
+    speed: "97/100",
+    specification: "A comprehensive digital clinic providing home healthcare services and medical consultations."
   },
   {
     id: 4,
-    name: "Takoma Park MD Real Estate",
-    url: "https://takomapark.vercel.app",
-    description: "A sleek real estate platform helping people find their perfect home",
-    category: "Real Estate",
-    image: "/screenshots/project4.jpg",
+    name: "Partners 2 Health",
+    url: "https://partners2health.ca",
+    description: "Website development for medical industry",
+    category: "Medical",
+    image: eminpashaImg,
     color: "#E2B84A",
-    techStack: ["React", "Firebase", "Mapbox", "Sass"],
-    speed: "95/100",
-    specification: "A sleek property discovery engine featuring real-time map integration, complex dynamic filtering, and a buttery smooth UI designed to make house hunting effortless."
+    techStack: ["Medical", "Healthcare", "React"],
+    speed: "100/100",
+    specification: "A collaborative health platform connecting patients with specialized medical partners."
   },
   {
     id: 5,
-    name: "Skin Camouflage",
-    url: "https://skincamouflage.vercel.app",
-    description: "A refined beauty & skincare brand site with elegant product focus",
-    category: "Beauty",
-    image: "/screenshots/project5.jpg",
+    name: "Ask Dog Trainers",
+    url: "#",
+    description: "Professional dog training platform",
+    category: "Services",
+    image: askdogImg,
     color: "#E24AC5",
-    techStack: ["Next.js", "React", "Shopify API", "TailwindCSS"],
-    speed: "100/100",
-    specification: "A headless e-commerce beauty platform. Designed with ultra-premium minimalist aesthetics, showcasing high-resolution imagery without sacrificing perfect Lighthouse performance scores."
+    techStack: ["React", "Training", "Services"],
+    speed: "96/100",
+    specification: "Expert dog training advice and professional consulting services."
   },
   {
     id: 6,
-    name: "Nova Spotify Clone",
-    url: "https://nova-spotify-clone.vercel.app",
-    description: "A pixel-perfect music streaming UI clone — built to showcase frontend mastery",
-    category: "UI Clone",
-    image: "/screenshots/project6.jpg",
+    name: "Ivy Bridge",
+    url: "#",
+    description: "Educational excellence platform",
+    category: "Education",
+    image: ivybridgeImg,
     color: "#1DB954",
-    techStack: ["React", "Redux", "Spotify Web API", "CSS Modules"],
-    speed: "94/100",
-    specification: "A technical showcase replicating complex streaming interfaces. Features full authentication, live playback state synchronization, and intricate state management mimicking enterprise applications."
+    techStack: ["Education", "Next.js", "React"],
+    speed: "95/100",
+    specification: "A polished academic platform built for students to learn and grow."
   },
   {
     id: 7,
-    name: "Startup.com",
-    url: "https://startup-com.vercel.app",
-    description: "A clean, modern landing page for a tech startup ready to launch",
-    category: "Startup",
-    image: "/screenshots/project7.jpg",
-    color: "#4A4AE2",
-    techStack: ["Vite", "Vue.js", "TailwindCSS", "GSAP"],
-    speed: "100/100",
-    specification: "A razor-sharp startup landing page optimized for immediate conversion. Features custom SVG animations, a pristine glassmorphic design system, and sub-second Time To Interactive."
-  },
-  {
-    id: 8,
-    name: "Crocs",
-    url: "https://crocs-rust.vercel.app",
-    description: "A vibrant e-commerce front for the iconic Crocs footwear brand",
-    category: "E-commerce",
-    image: "/screenshots/project8.jpg",
-    color: "#E2864A",
-    techStack: ["Next.js", "Three.js", "TailwindCSS", "Stripe"],
-    speed: "97/100",
-    specification: "An interactive shopping experience allowing users to view products in full 3D, customize colors in real-time, and checkout seamlessly through a deeply integrated payment flow."
-  },
-  {
-    id: 9,
-    name: "Mint Walks",
-    url: "https://mintwalks.com",
-    github: "https://github.com/orbyza/mintwalks",
-    description: "A fresh lifestyle and wellness brand with smooth, airy design",
-    category: "Lifestyle",
-    image: "/screenshots/project9.jpg",
-    color: "#4AE2B8",
-    techStack: ["Next.js", "TypeScript", "Framer Motion", "TailwindCSS"],
-    speed: "99/100",
-    specification: "A serene digital environment built with smooth, physics-based scroll animations, fluid page transitions, and an organic design language that perfectly captures the wellness brand identity."
-  },
-  {
-    id: 10,
-    name: "Orbyza",
-    url: "https://orbyza.com",
-    description: "Our own home — a living proof of everything we build",
-    category: "Studio",
-    image: "/screenshots/project10.jpg",
-    color: "#6C00FF",
-    techStack: ["React Three Fiber", "GSAP", "Vite", "WebGL"],
-    speed: "92/100",
-    specification: "The ultimate portfolio piece. A masterclass in WebGL performance optimization, 3D spatial UI design, and creative frontend engineering pushing the boundaries of what a website can be."
-  },
-  {
-    id: 11,
     name: "Roam & Roar Safari",
     url: "https://roamandroarsafari.co.in",
-    description: "An adventurous safari booking site built for thrill-seekers",
+    description: "An adventurous safari booking site",
     category: "Travel",
-    image: "/screenshots/project11.jpg",
+    image: roamandroarImg,
     color: "#86E24A",
-    techStack: ["Next.js", "React", "Sanity CMS", "TailwindCSS"],
+    techStack: ["Travel", "Booking", "React"],
     speed: "98/100",
-    specification: "A visually striking travel booking engine powered by a headless CMS for dynamic content management, featuring rich cinematic video backgrounds and seamless booking flows."
+    specification: "A visually striking travel booking engine for safari adventures."
   }
 ];
+

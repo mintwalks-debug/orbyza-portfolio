@@ -15,7 +15,7 @@ const HeroSection = () => {
         pointerEvents: 'auto'
       }}>
         <div style={{ opacity: 0.8, marginBottom: '20px', letterSpacing: '2px' }}>
-          We don't build websites. We build worlds.
+          Website development for medical industry
         </div>
         <button 
           style={{
