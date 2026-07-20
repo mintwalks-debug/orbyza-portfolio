@@ -32,9 +32,9 @@ const projects = [
   { 
     title: "The Emin Pasha Hotel", colSpan: "md:col-span-7", img: img4,
     url: "https://eminpasha.com", 
-    techStack: ["Hospitality", "Booking", "React"],
+    techStack: ["WordPress", "WP Bakery", "Booking Plugin", "Elementor", "Page Speed"],
     description: "Website development for luxury hotel",
-    specification: "A collaborative booking platform for a luxury hotel & spa."
+    specification: "A comprehensive booking platform for a luxury hotel & spa."
   }
 ];
 
