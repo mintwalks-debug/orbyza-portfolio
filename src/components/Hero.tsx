@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import Hls from 'hls.js';
 import gsap from 'gsap';
 
@@ -90,12 +91,12 @@ export function Hero() {
         </p>
 
         <div className="blur-in inline-flex items-center gap-4">
-          <button className="group relative rounded-full overflow-hidden">
+          <Link to="/work" className="group relative rounded-full overflow-hidden">
             <span className="absolute inset-[-2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="relative text-sm px-7 py-3.5 bg-text-primary text-bg group-hover:bg-bg group-hover:text-text-primary transition-colors rounded-full hover:scale-105 duration-300">
               See Works
             </div>
-          </button>
+          </Link>
           
           <a href="https://orbyza.com/contact" target="_blank" rel="noopener noreferrer" className="group relative rounded-full overflow-hidden">
             <span className="absolute inset-[-2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
