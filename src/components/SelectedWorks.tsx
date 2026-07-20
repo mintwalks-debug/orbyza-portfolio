@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import img1 from '../../website dev/NEOFATBURY.co,in.png';
+import { Link } from 'react-router-dom';
+import img1 from '../../website dev/NEOFATBURY.co.in.png';
 import img2 from '../../website dev/enfermeraentucasa.es.png';
 import img3 from '../../website dev/agenziamemorial.png';
 import img4 from '../../website dev/eminpasha.com.png';
@@ -38,12 +39,12 @@ export function SelectedWorks() {
           </div>
           
           {/* Desktop button */}
-          <button className="hidden md:inline-flex group relative rounded-full overflow-hidden mt-6 md:mt-0">
+          <Link to="/work" className="hidden md:inline-flex group relative rounded-full overflow-hidden mt-6 md:mt-0">
             <span className="absolute inset-[-2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="relative text-sm px-6 py-3 border border-stroke bg-bg text-text-primary rounded-full flex items-center gap-2">
               View all work <span>→</span>
             </div>
-          </button>
+          </Link>
         </motion.div>
 
         {/* Bento Grid */}
@@ -56,17 +57,17 @@ export function SelectedWorks() {
               <img 
                 src={project.img} 
                 alt={project.title}
-                className="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:scale-105 transition-transform duration-700 ease-out"
+                className="absolute inset-0 w-full h-full object-cover grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
               />
               
               {/* Halftone Overlay */}
               <div 
-                className="absolute inset-0 opacity-20 mix-blend-multiply pointer-events-none"
+                className="absolute inset-0 opacity-20 mix-blend-multiply pointer-events-none group-hover:opacity-0 transition-opacity duration-700"
                 style={{ backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)', backgroundSize: '4px 4px' }}
               />
 
               {/* Hover Overlay */}
-              <div className="absolute inset-0 bg-bg/70 opacity-0 group-hover:opacity-100 backdrop-blur-lg transition-opacity duration-500 flex items-center justify-center">
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                 
                 {/* Hover Label */}
                 <div className="relative rounded-full overflow-hidden scale-90 group-hover:scale-100 transition-transform duration-500 delay-100">

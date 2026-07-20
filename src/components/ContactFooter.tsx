@@ -70,10 +70,10 @@ export function ContactFooter() {
 
         {/* CTA */}
         <div className="mb-24">
-          <a href="mailto:hello@michaelsmith.com" className="group relative rounded-full overflow-hidden inline-flex">
+          <a href="mailto:orbyzaseo@gmail.com" className="group relative rounded-full overflow-hidden inline-flex">
             <span className="absolute inset-[-2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="relative text-lg md:text-2xl px-10 py-5 bg-surface text-text-primary rounded-full backdrop-blur-md flex items-center gap-3">
-              hello@michaelsmith.com <span>↗</span>
+              orbyzaseo@gmail.com <span>↗</span>
             </div>
           </a>
         </div>
