@@ -97,12 +97,12 @@ export function Hero() {
             </div>
           </button>
           
-          <button className="group relative rounded-full overflow-hidden">
+          <a href="https://orbyza.com/contact" target="_blank" rel="noopener noreferrer" className="group relative rounded-full overflow-hidden">
             <span className="absolute inset-[-2px] rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             <div className="relative text-sm px-7 py-3.5 border-2 border-stroke bg-bg text-text-primary group-hover:border-transparent transition-colors rounded-full hover:scale-105 duration-300">
               Reach out...
             </div>
-          </button>
+          </a>
         </div>
       </div>
 

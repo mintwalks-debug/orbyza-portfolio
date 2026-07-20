@@ -1,10 +1,9 @@
 import { motion } from 'framer-motion';
 
 const journals = [
-  { title: "Design Systems in 2026", date: "Oct 12, 2026", readTime: "5 min read", img: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=200&auto=format&fit=crop" },
-  { title: "The Future of Spatial UI", date: "Sep 28, 2026", readTime: "8 min read", img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=200&auto=format&fit=crop" },
-  { title: "Minimalism is Dead", date: "Aug 15, 2026", readTime: "4 min read", img: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=200&auto=format&fit=crop" },
-  { title: "Creative Coding with GSAP", date: "Jul 02, 2026", readTime: "12 min read", img: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=200&auto=format&fit=crop" }
+  { title: "Website Development", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=200&auto=format&fit=crop" },
+  { title: "SEO", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=200&auto=format&fit=crop" },
+  { title: "Meta & Google Ads", date: "Performance marketing", readTime: "Service", img: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=200&auto=format&fit=crop" }
 ];
 
 export function Journal() {
@@ -23,13 +22,13 @@ export function Journal() {
           <div>
             <div className="flex items-center gap-4 mb-4">
               <div className="w-8 h-px bg-stroke" />
-              <span className="text-xs text-muted uppercase tracking-[0.3em]">Journal</span>
+              <span className="text-xs text-muted uppercase tracking-[0.3em]">Services</span>
             </div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl text-text-primary mb-4">
-              Recent <span className="font-display italic">thoughts</span>
+              Our <span className="font-display italic">Expertise</span>
             </h2>
             <p className="text-muted text-sm md:text-base max-w-sm">
-              Writing about design, engineering, and the creative process.
+              Comprehensive digital solutions to help your business grow.
             </p>
           </div>
           
