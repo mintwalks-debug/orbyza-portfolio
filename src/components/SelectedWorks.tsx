@@ -11,29 +11,29 @@ const projects = [
   { 
     title: "Neofatbury", colSpan: "md:col-span-7", img: img1,
     url: "https://neofatbury.co.in/",
-    techStack: ["React", "Medical", "Healthcare"],
-    description: "Website development for medical industry",
+    techStack: ["Next.js", "React.js", "Vue", "Vercel", "Sanity CMS", "Zoho CRM", "GoDaddy", "Custom Theme"],
+    description: "Website development for a Hyderabad-based client.",
     specification: "A robust platform for bariatric and metabolic surgery, designed with patient accessibility in mind."
   },
   { 
     title: "Enfermera en tu casa", colSpan: "md:col-span-5", img: img2,
     url: "https://enfermeraentucasa.es/",
-    techStack: ["React", "Next.js", "Healthcare"],
-    description: "Website development for medical industry",
+    techStack: ["Next.js", "React.js", "Vue", "Vercel", "GoDaddy", "Sanity CMS", "Wix Redirection", "SEO"],
+    description: "Website development for the medical industry.",
     specification: "Professional home nursing services platform with easy patient onboarding and clear service discovery."
   },
   { 
     title: "Agenzia Memorial", colSpan: "md:col-span-5", img: img3,
-    url: "https://agenziamemorial.it/",
-    techStack: ["Vite", "Healthcare", "TailwindCSS"],
-    description: "Website development for funeral industry",
+    url: "https://www.agenziamemorial.com/",
+    techStack: ["WordPress", "Elementor"],
+    description: "Website development for the funeral industry.",
     specification: "A comprehensive digital presence providing memorial services."
   },
   { 
     title: "The Emin Pasha Hotel", colSpan: "md:col-span-7", img: img4,
-    url: "https://eminpasha.com", 
-    techStack: ["WordPress", "WP Bakery", "Booking Plugin", "Elementor", "Page Speed"],
-    description: "Website development for luxury hotel",
+    url: "https://eminpasha.com/", 
+    techStack: ["WordPress", "WP Bakery", "Elementor", "Booking Plugin"],
+    description: "Luxury Hotel Website in Africa.",
     specification: "A comprehensive booking platform for a luxury hotel & spa."
   }
 ];
