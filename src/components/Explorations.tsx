@@ -4,13 +4,20 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
+import img1 from '../../website dev/NEOFATBURY.co.in.png';
+import img2 from '../../website dev/Roamandroar.co.in.png';
+import img3 from '../../website dev/Voxeldata.com.au.png';
+import img4 from '../../website dev/agenziamemorial.png';
+import img5 from '../../website dev/ashcircelassociates.com.png';
+import img6 from '../../website dev/askdogtrainers.png';
+import img7 from '../../website dev/eminpasha.com.png';
+import img8 from '../../website dev/enfermeraentucasa.es.png';
+import img9 from '../../website dev/farm-to-fork-bliss.png';
+import img10 from '../../website dev/ivybridge.png';
+import img11 from '../../website dev/kumarprinter.com.png';
+
 const explorations = [
-  "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?q=80&w=600&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop"
+  img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11
 ];
 
 export function Explorations() {
@@ -90,7 +97,7 @@ export function Explorations() {
           
           {/* Column 1 */}
           <div ref={col1Ref} className="flex flex-col gap-12 md:gap-32 items-end pt-32">
-            {explorations.slice(0, 3).map((img, idx) => (
+            {explorations.slice(0, Math.ceil(explorations.length / 2)).map((img, idx) => (
               <div 
                 key={`col1-${idx}`} 
                 className="pointer-events-auto aspect-square w-full max-w-[320px] rounded-3xl overflow-hidden border border-stroke shadow-2xl hover:scale-105 transition-transform duration-500 cursor-pointer bg-surface"
@@ -103,7 +110,7 @@ export function Explorations() {
 
           {/* Column 2 */}
           <div ref={col2Ref} className="flex flex-col gap-12 md:gap-32 items-start mt-48">
-            {explorations.slice(3, 6).map((img, idx) => (
+            {explorations.slice(Math.ceil(explorations.length / 2)).map((img, idx) => (
               <div 
                 key={`col2-${idx}`} 
                 className="pointer-events-auto aspect-square w-full max-w-[320px] rounded-3xl overflow-hidden border border-stroke shadow-2xl hover:scale-105 transition-transform duration-500 cursor-pointer bg-surface"
