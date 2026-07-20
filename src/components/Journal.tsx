@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const journals = [
-  { title: "Website Development", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=200&auto=format&fit=crop" },
-  { title: "SEO", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=200&auto=format&fit=crop" },
-  { title: "Meta & Google Ads", date: "Performance marketing", readTime: "Service", img: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?q=80&w=200&auto=format&fit=crop" }
+  { title: "Website Development", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=200&auto=format&fit=crop" },
+  { title: "SEO", date: "Different categories", readTime: "Service", img: "https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?q=80&w=200&auto=format&fit=crop" },
+  { title: "Meta & Google Ads", date: "Performance marketing", readTime: "Service", img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=200&auto=format&fit=crop" }
 ];
 
 export function Journal() {
