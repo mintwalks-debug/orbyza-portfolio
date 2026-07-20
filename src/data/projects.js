@@ -33,7 +33,7 @@ export const projects = [
   },
   {
     id: 3,
-    name: "Dr. Faus Home Clinic",
+    name: "Agenzia Memorial",
     url: "https://drfaushomeclinic.net/",
     description: "Website development for medical industry",
     category: "Medical",
@@ -45,7 +45,7 @@ export const projects = [
   },
   {
     id: 4,
-    name: "Partners 2 Health",
+    name: "The Emin Pasha Hotel",
     url: "https://partners2health.ca",
     description: "Website development for medical industry",
     category: "Medical",

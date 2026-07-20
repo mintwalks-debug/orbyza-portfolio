@@ -8,8 +8,8 @@ import img4 from '../../website dev/eminpasha.com.png';
 const projects = [
   { title: "Neofatbury", colSpan: "md:col-span-7", img: img1 },
   { title: "Enfermera en tu casa", colSpan: "md:col-span-5", img: img2 },
-  { title: "Dr. Faus Home Clinic", colSpan: "md:col-span-5", img: img3 },
-  { title: "Partners 2 Health", colSpan: "md:col-span-7", img: img4 }
+  { title: "Agenzia Memorial", colSpan: "md:col-span-5", img: img3 },
+  { title: "The Emin Pasha Hotel", colSpan: "md:col-span-7", img: img4 }
 ];
 
 export function SelectedWorks() {
